@@ -1,0 +1,50 @@
+.mat-paginator-range-label {
+    display: none!important;
+}
+
+.bar{
+
+    overflow-y: auto;
+overflow-x:hidden ;
+margin-top: 40px;
+     height:475px;
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     box-shadow: 0px 0px 25px #00000029;
+     opacity: 1;
+     width: 50vw;
+   }
+  
+   .money {
+    display: flex;
+    padding: 1.43vw;
+    font-size: 14px;
+}
+ .dropdowns {
+    margin-bottom: 8vw !important;
+}
+.money div:nth-child(1) {
+    width: 22vw;
+    overflow: hidden;
+    text-overflow: ellipsis;white-space: nowrap;
+    margin-left:2vw ;
+}.money div:nth-child(2) {
+    width: 27vw;
+    overflow: hidden;    margin-left:10px ;
+
+    text-overflow: ellipsis;white-space: nowrap;
+}.money div:nth-child(4) {
+    width: 15vw;
+    overflow: hidden;    margin-left:10px ;
+
+    text-overflow: ellipsis;white-space: nowrap;
+}.money div:nth-child(5) {
+    width: 7vw;
+    overflow: hidden;    margin-left:10px ;
+
+    text-overflow: ellipsis;white-space: nowrap;
+}
+.point div{
+
+    cursor: pointer;
+
+}

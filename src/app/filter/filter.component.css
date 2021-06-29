@@ -1,0 +1,108 @@
+.flexd
+ {
+
+display: flex;
+flex-direction: column;
+
+ }
+ 
+ .formcontent{
+      margin-top: 40px;
+
+    height: 470px;;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 25px #00000029;
+border-radius: 10px;
+opacity: 1;
+  }
+  .label
+ {
+display: block;
+margin: 2vw 0vw;
+
+ }
+  app-data{margin:auto ;}
+
+
+ 
+
+
+.maincomp{
+display: flex;
+flex-flow: row;flex-wrap: wrap;justify-content: flex-start;
+}
+.label{
+
+margin-left: 24px   ;
+
+margin-top: 24px;
+width: 35px;
+height: 24px;
+text-align: left;
+font:20px medium , Roboto;
+letter-spacing: 0.2px;
+color: #000000;
+}
+.dropdowns{
+    padding-left:25px ;
+
+    margin-right: 24px!important;
+    margin-left: 24px!important;
+margin-top: 10px!important;
+width: 325px!important;
+height: 46px!important;
+background: #FFFFFF 0% 0% no-repeat padding-box!important;
+box-shadow: 0px 0px 10px #00000029!important;
+border-radius: 5px!important;
+opacity: 1!important;
+border: 0px none !important;
+
+
+}
+.check{
+width: 68px;
+height: 20px;
+text-align: left;
+font:17px medium , Roboto;
+letter-spacing: 0.17px;
+color: #000000;
+opacity: 0.6;
+}
+.filter{
+            
+ margin: 24px;
+width: 103px;
+height: 34px;
+background: #1C85C8 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 10px #1C85C833;
+border-radius: 5px;
+font:16px medium , Roboto;
+letter-spacing: 0.32px;
+color: #FFFFFF;
+}
+.checklabel{
+width: 56px;
+height: 20px;
+text-align: left;
+font:17px medium , Roboto;
+letter-spacing: 0.17px;
+color: #000000;
+opacity: 0.6;
+
+}
+
+.temp{
+    display:inline-block;
+    margin-top: 5px;
+    margin-left: 10px;
+height: 17px;
+text-align: left;
+font: normal normal normal 14px/12px Roboto;
+letter-spacing: 0px;
+color: #828282;
+opacity: 1;
+background: #F3F6FF 0% 0% no-repeat padding-box;
+border-radius: 2px;
+}
+
+

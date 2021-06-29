@@ -1,0 +1,24 @@
+<div class="bar">
+
+    <div class="money point">
+        <div (click)="sortbyname()">name</div>
+
+        <div (click)="sortbyphone()"> number</div>
+
+
+
+
+    </div>
+    <div class="border" *ngFor="let item of this.mobiledetails  | slice:this.pageindex*5:((this.pageindex*5)+5)  ">
+        
+        <div class="money" >
+            <div>{{item.name}}</div>
+            <div> {{item.phone}} </div>
+        </div>
+    </div>
+
+
+
+    <mat-paginator [length]=this.mobiledetails.length [pageSize]="5" [pageSizeOptions]="[5]" (page) =onchangepage($event) [pageIndex]=this.pageindex >
+    </mat-paginator>
+</div>

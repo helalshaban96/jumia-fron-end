@@ -1,0 +1,50 @@
+<div class="backlogo">
+
+    <div class="maincomp">
+        <div class="formcontent">
+
+
+
+
+
+
+            <form>
+                <label class="label"> country</label>
+
+                <select class="dropdowns" [(ngModel)]=this.countryvalue (change)="filterdata()" name="country">
+                    <option value="" selected="false">Choose country </option>
+
+                    <option *ngFor ="let item of arrayfield" [value]="item.id">{{item.name}}</option>
+                </select>
+
+
+
+                <p>
+
+                    <label class="label"> state</label>
+
+
+                    <select class="dropdowns" [(ngModel)]=this.validvalue  (change)="filterdata()" name="valid">
+                        <option value="" selected="false">Choose valdiation type </option>
+
+                        <option value="1">valid</option>
+                        <option value="0">not valid</option>
+
+
+                    </select>
+
+
+                </p>
+
+
+            </form>
+        </div>
+        <div class="flexd">
+            <app-data class="navbarlocation" [mobiledetails]="this.finalout">
+
+            </app-data>
+        >
+
+        </div>
+
+    </div>
